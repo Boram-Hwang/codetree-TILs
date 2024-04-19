@@ -8,8 +8,8 @@ public class Main {
         double c = sc.nextDouble();
 
 
-        System.out.println(Math.round(a * 1000)/1000.0);
-        System.out.println(Math.round(b * 1000)/1000.0);
+        System.out.printf("%.3f\n",a);
+        System.out.printf("%.3f\n",b);
         System.out.printf("%.3f",c);
     }
 }
