@@ -12,7 +12,7 @@ public class Main {
         } else if(n >= 500){
             System.out.println("pen");
         }else {
-            System.out.println("mask");
+            System.out.println("no");
         }
     }
 }
