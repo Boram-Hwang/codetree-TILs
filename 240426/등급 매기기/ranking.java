@@ -8,9 +8,9 @@ public class Main {
             System.out.println("A");
         } else if (a >= 80) {
             System.out.println("B");
-        } else if (a >= 80) {
+        } else if (a >= 70) {
             System.out.println("C");
-        } else if (a >= 80) {
+        } else if (a >= 60) {
             System.out.println("D");
         } else {
             System.out.println("F");
