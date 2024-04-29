@@ -10,19 +10,23 @@ public class Main {
         int a2 = sc.nextInt();
         int b2 = sc.nextInt();
 
-        if(a1 > a2) {
+        // if(a1 > a2) {
+        //     System.out.println("A");
+        // } else if(a1 == a2) {
+        //     if(b1 > b2) {
+        //         System.out.println("A");
+        //     } else {
+        //         System.out.println("B");
+        //     }
+        // }
+        // else {
+        //     System.out.println("B");
+        // }
+        if(a1 > a2 || (a1==a2 && b1>b2)){
             System.out.println("A");
-        } else if(a1 == a2) {
-            if(b1 > b2) {
-                System.out.println("A");
-            } else {
-                System.out.println("B");
-            }
-        }
-        else {
+        } else {
             System.out.println("B");
         }
-
 
     }
 }
