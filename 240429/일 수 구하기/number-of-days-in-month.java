@@ -8,13 +8,16 @@ public class Main {
 
         if(n == 2) {
             System.out.println(28);
-        } else if (n % 2 == 0) {
+        } else if ( n < 9  && n % 2 == 0) {
             if(n == 8) {
                 System.out.println(31);
             } else {
                 System.out.println(30);
             }
-        } else {
+        } else if (n >= 9  && n % 2 == 0) {
+            System.out.println(30);
+        }
+        else {
             System.out.println(31);
         }
     }
