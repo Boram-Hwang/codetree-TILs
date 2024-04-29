@@ -14,7 +14,7 @@ public class Main {
             } else {
                 System.out.println(30);
             }
-        } else if (n >= 9  && n % 2 == 0) {
+        } else if (n >= 9  && n % 2 != 0) {
             System.out.println(30);
         }
         else {
