@@ -6,8 +6,9 @@ public class Main {
 
         int a = sc.nextInt();
         int b = sc.nextInt();
-
+        
         double result = (double)a/b;
-        System.out.printf("%.20f",result);
+        String formattedResult = String.format("%.20f",result);
+        System.out.printf(formattedResult);
     }
 }
