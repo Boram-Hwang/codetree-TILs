@@ -8,7 +8,7 @@ public class Main {
         b = sc.nextInt();
 
         for(int i = 1; i<=b; i++) {
-            if(i % 4 == 0) {
+            if(i % a == 0) {
                 result *= i;
             }
         }
